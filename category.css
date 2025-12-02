@@ -70,6 +70,67 @@
       }
     }
     
+
+
+.nav-links {
+  transition: right 0.4s ease-in-out;
+}
+
+.nav-links.active {
+  right: 0;
+}
+
+
+.post {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.7s ease-out;
+}
+
+.post.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.post img {
+  transition: transform 0.4s ease;
+}
+
+.post img:hover {
+  transform: scale(1.05);
+}
+
+
+button {
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  transform: scale(1.05);
+  background: var(--primary);
+}
+
+
+.nav-links li a {
+  position: relative;
+}
+
+.nav-links li a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0%;
+  height: 2px;
+  background: var(--primary);
+  transition: width 0.3s ease-in-out;
+}
+
+.nav-links li a:hover::after {
+  width: 100%;
+}
+
     
+
 
 
