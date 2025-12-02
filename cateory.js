@@ -1,6 +1,4 @@
-// ===============================
-// MOBILE NAVIGATION TOGGLE
-// ===============================
+
 
 const hamburger = document.querySelector('.hamburger');
 const navLinks = document.querySelector('.nav-links');
@@ -10,15 +8,25 @@ hamburger.addEventListener('click', () => {
 });
 
 
-// ===============================
-// NEWSLETTER EMAIL VALIDATION
-// ===============================
+const posts = document.querySelectorAll('.post');
+
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('show');
+    }
+  });
+}, {
+  threshold: 0.2
+});
+
+posts.forEach(post => observer.observe(post));
 
 const newsletterForm = document.querySelector('.footer-newsletter form');
 const emailInput = newsletterForm.querySelector('input');
 
 newsletterForm.addEventListener('submit', (e) => {
-  e.preventDefault(); // prevent actual submission
+  e.preventDefault(); 
 
   const email = emailInput.value.trim();
 
@@ -27,28 +35,16 @@ newsletterForm.addEventListener('submit', (e) => {
     return;
   }
 
-  // Simple email validation regex
   const emailPattern = /^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/;
 
   if (!emailPattern.test(email)) {
     alert("Please enter a valid email address.");
   } else {
     alert("Thank you for subscribing! ☕");
-    emailInput.value = ""; // clear input
+    emailInput.value = "";
   }
 });
 
 
-// ===============================
-// SMOOTH SCROLL (OPTIONAL)
-// ===============================
+  
 
-document.querySelectorAll('a[href^=\"#\"]').forEach(link => {
-  link.addEventListener('click', function (e) {
-    const target = document.querySelector(this.getAttribute('href'));
-    if (target) {
-      e.preventDefault();
-      target.scrollIntoView({ behavior: 'smooth' });
-    }
-  });
-});
