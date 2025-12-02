@@ -1,72 +1,55 @@
-    body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-      background-color: #f9f9f9;
-      color: #333;
-      margin: 0;
-    }
+.img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-top: -35px;
 
-    /* Navigation bar */
-    nav {
-      background: #6f4e37;
-      color: #fff;
-      padding: 10px;
-    }
-    nav ul {
-      display: flex;
-      flex-wrap: wrap;
-      list-style: none;
-      justify-content: center;
-      margin: 0;
-      padding: 0;
-    }
-    nav ul li {
-      margin: 0 15px;
-    }
-    nav ul li a {
-      color: #fff;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    nav ul li a:hover {
-      text-decoration: underline;
-    }
-
-    /* Blog post container */
-    .container {
-      max-width: 1000px;
-      margin: 20px auto;
-      padding: 0 15px;
-    }
-    .post {
-      background: #fff;
-      margin-bottom: 20px;
-      padding: 20px;
-      border-radius: 8px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    }
-    .post img {
-      width: 100%;
-      height: auto;
-      border-radius: 8px;
-      margin-bottom: 15px;
-    }
-    .post h2 {
-      color: #6f4e37;
-      margin-bottom: 10px;
-    }
-    .post p {
-      font-size: 0.95em;
-    }
-
-    /* Responsive design */
-    @media (max-width: 600px) {
-      nav ul {
-        flex-direction: column;
-        align-items: center;
-      }
-      nav ul li {
-        margin: 10px 0;
-      }
-    }
+}
+.footer{
+    background-color:#4b3626;
     
+}
+.card:hover{
+     background-color:rgba(0, 0, 0, 0.429);
+   box-shadow: 0 25px 25px rgb(118, 54, 44);
+   transform: translateX(-5px);
+   color: rgb(102, 232, 232);
+}
+.body{
+    background: url("./bg\ coffe.avif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.h2:hover{
+    color:blueviolet;
+    border-radius: 10px;
+}
+.nav-link:hover{
+    color:blueviolet;
+    border-radius: 10px;
+}
+.card h5{
+    font-style:initial;
+    font-family: 'Times New Roman';
+}
+.h2{
+    font-family: 'Lucida Sans';
+    font-size:x-large;
+    font-weight: bold;
+    color: bisque;
+}
+.card p{
+    font-family:Tahoma;
+    font-style: italic;
+}
+.card img {
+    display: block;           
+    margin: 0 auto;           
+    width: 130px;             
+    height: 130px;
+    object-fit: cover;
+    border-radius: 50%;       
+}
+
