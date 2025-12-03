@@ -1,0 +1,176 @@
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            min-height: 100vh; /* For scroll demo */
+        }
+        .navbar{
+            color: white;
+            font-weight: bold;
+        }
+        .navo{
+            margin-left: 300px;
+        }
+
+        /* Background Section */
+        .contact-section {
+            min-height: 100vh;
+            background: url("./janko-ferlic-h9Iq22JJlGk-unsplash.jpg")
+                        no-repeat center center/cover;
+             
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        /* Contact Box */
+        .contact-container {
+            width: 100%;
+            max-width: 450px;
+            background: rgba(255, 255, 255, 0.2);
+            padding: 25px;
+            border: 1px solid #fff;
+            border-radius: 10px;
+            backdrop-filter: blur(4px);
+        }
+
+        h2, p {
+            color: white;
+            margin: 0 0 15px 0;
+        }
+
+        /* Inputs */
+        input, textarea {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 15px;
+            border: 1px solid white;
+            background: transparent;
+            color: white;
+            border-radius: 6px;
+            font-size: 15px;
+        }
+
+        input::placeholder,
+        textarea::placeholder {
+            color: white;
+        }
+
+        textarea {
+            height: 110px;
+        }
+
+        /* Send Button */
+        .btn {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid white;
+            background: transparent;
+            color: white;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 6px;
+        }
+
+        .btn:hover {
+            background: white;
+            color: black;
+        }
+
+        /* ICONS SECTION */
+        .icon-row {
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-between;
+            gap: 10px;
+        }
+
+        .icon-box {
+            flex: 1;
+            padding: 12px;
+            border: 1px solid white;
+            text-align: center;
+            border-radius: 10px;
+            color: white;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .icon-box:hover {
+            background: white;
+            color: black;
+            transform: translateY(-5px);
+        }
+
+        .icon-box i {
+            display: block;
+            font-size: 22px;
+            margin-bottom: 5px;
+        }
+
+        /* BACK TO TOP BUTTON */
+        .back-to-top {
+            position: fixed;
+            right: 20px;
+            bottom: 25px;
+            width: 55px;
+            height: 55px;
+            background: rgba(156, 102, 8, 0.8);
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            visibility: hidden;
+            opacity: 0;
+            transition: 0.3s;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+        }
+
+        .back-to-top.show {
+            visibility: visible;
+            opacity: 0;
+        }
+
+        .back-to-top i {
+            font-size: 22px;
+            color: black;
+        }
+
+        .back-to-top:hover {
+            background: rgb(112, 7, 7);
+            transform: translateY(-5px);
+        }
+
+        /* Mobile Fixes */
+        @media (max-width: 480px) {
+            .icon-row {
+                flex-wrap: wrap;
+            }
+            .icon-box {
+                flex: 48%;
+                margin-bottom: 10px;
+            }
+        }
+
+
+        
+        /* FOOTER */
+        footer {
+            background: #4b3626;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+        }
+
+        
+        header {
+    background: #4b3626;
+    padding: 10px 40px;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+        
