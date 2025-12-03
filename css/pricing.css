@@ -1,40 +1,40 @@
-img{
+.img{
     width: 100px;
     height: 100px;
     object-fit: cover;
     margin-top: -35px;
 
 }
-footer{
+.footer{
     background-color:#4b3626;
     
 }
-card:hover{
+.card:hover{
      background-color:rgba(0, 0, 0, 0.429);
    box-shadow: 0 25px 25px rgb(118, 54, 44);
    transform: translateX(-5px);
    color: rgb(102, 232, 232);
 }
-body{
+.body{
     background: url("https://betsy-jpg.github.io/UMU_WebDev_GroupI_2025/images/pricing/bg-coffe.avif");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     
 }
-h2:hover{
+.h2:hover{
     color:blueviolet;
     border-radius: 10px;
 }
-nav-link:hover{
+.nav-link:hover{
     color:blueviolet;
     border-radius: 10px;
 }
-card h5{
+.card h5{
     font-style:initial;
     font-family: 'Times New Roman';
 }
-h2{
+.h2{
     font-family: 'Lucida Sans';
     font-size:x-large;
     font-weight: bold;
