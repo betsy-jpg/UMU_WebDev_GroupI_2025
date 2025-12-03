@@ -40,11 +40,11 @@
     font-weight: bold;
     color: bisque;
 }
-card p{
+.card p{
     font-family:Tahoma;
     font-style: italic;
 }
-card img {
+.card img {
     display: block;           
     margin: 0 auto;           
     width: 130px;             
