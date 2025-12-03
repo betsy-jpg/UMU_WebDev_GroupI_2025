@@ -3,6 +3,7 @@
             margin: 0;
             font-family: Arial, sans-serif;
             min-height: 100vh; /* For scroll demo */
+                background-color:blurywood;
         }
         .navbar{
             color: white;
@@ -15,7 +16,7 @@
         /* Background Section */
         .contact-section {
             min-height: 100vh;
-            background: contact-us.jpg
+           /* background: contact-us.jpg*/
                         no-repeat center center/cover;
              
             display: flex;
