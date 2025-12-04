@@ -397,8 +397,9 @@ body {
     width: 100%;
     height: 100%;
     background-image: 
-        linear-gradient(rgba(206, 194, 194, 0.475), rgba(105, 87, 87, 0.68)), 
-        url('https://betsy-jpg.github.io/UMU_WebDev_GroupI_2025/css/index/cuppie.webp'); 
+        url(https://betsy-jpg.github.io/UMU_WebDev_GroupI_2025/images/index/cuppie.webp),
+        linear-gradient(rgba(206, 194, 194, 0.475), rgba(105, 87, 87, 0.68)); 
+       
     background-repeat: no-repeat; /* dont use 'repeat' */
     background-size: cover; 
     background-position: center;
