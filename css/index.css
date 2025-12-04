@@ -397,13 +397,11 @@ body {
     width: 100%;
     height: 100%;
     background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://betsy-jpg.github.io/UMU_WebDev_GroupI_2025/images/index/cuppie.webp); 
-        
-       
     background-repeat: no-repeat; /* dont use 'repeat' */
     background-size: cover; 
     background-position: center;
     background-attachment: fixed;
-    opacity: 1; 
+    /*opacity: 1;*/
     z-index: -1;
     pointer-events: none;
 }
