@@ -12,7 +12,7 @@
     box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
 
-/* All links (including the logo text) to be white */
+/* All links(including the logo text) to be white */
 .nav-bar .navbar a,
 .nav-bar .navbar .navbar-logo {
     color: white !important;
