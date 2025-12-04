@@ -32,7 +32,7 @@
     color: #D4A574 !important;
 }
 
-/* Reserve button – make it stand out */
+
 .reserve-button {
     background-color: #D4A574 !important;   /* same caramel */
     color: #4A2C2A !important;
@@ -399,8 +399,8 @@ body {
     background-image: 
         linear-gradient(rgba(206, 194, 194, 0.475), rgba(105, 87, 87, 0.68)), 
         url(https://betsy-jpg.github.io/UMU_WebDev_GroupI_2025/images/index/cuppie.webp); 
-    background-repeat: no-repeat; /* Changed from 'repeat' */
-    background-size: cover; /* Changed from 200px */
+    background-repeat: no-repeat; 
+    background-size: cover; 
     background-position: center;
     background-attachment: fixed;
     opacity: 1; 
