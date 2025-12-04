@@ -5,7 +5,7 @@
             font-family: Arial, sans-serif;
             
         }
-        /* Navigation bar – brown background with  white text */
+        /* Navigation bar – brown background  with a white text */
 .nav-bar .navbar {
     background-color: #4A2C2A !important;  /* Rich coffee brown */
     padding: 1rem 0;
@@ -398,8 +398,8 @@ body {
     height: 100%;
     background-image: 
         linear-gradient(rgba(206, 194, 194, 0.475), rgba(105, 87, 87, 0.68)), 
-        url(https://betsy-jpg.github.io/UMU_WebDev_GroupI_2025/images/index/cuppie.webp;); 
-    background-repeat: no-repeat; 
+        url('https://betsy-jpg.github.io/UMU_WebDev_GroupI_2025/css/index/cuppie.webp'); 
+    background-repeat: no-repeat; /* dont use 'repeat' */
     background-size: cover; 
     background-position: center;
     background-attachment: fixed;
