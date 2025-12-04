@@ -5,14 +5,14 @@
             font-family: Arial, sans-serif;
             
         }
-        /* Navigation bar – brown background + white text */
+        /* Navigation bar – brown background with  white text */
 .nav-bar .navbar {
     background-color: #4A2C2A !important;  /* Rich coffee brown */
     padding: 1rem 0;
     box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
 
-/* All links (including the logo text) – white */
+/* All links (including the logo text) to be white */
 .nav-bar .navbar a,
 .nav-bar .navbar .navbar-logo {
     color: white !important;
@@ -23,7 +23,7 @@
 /* Hover effect – lighter attractive brown */
 .nav-bar .navbar a:hover,
 .nav-bar .navbar .navbar-logo:hover {
-    color: #D4A574 !important;   /* Warm caramel / light coffee shade – very attractive */
+    color: #D4A574 !important;   /* light coffee shade – very attractive */
 }
 
 /* Active/current page (optional – same hover color) */
@@ -48,9 +48,9 @@
     transform: translateY(-2px);
 }
 
-/* Make sure the fixed navbar doesn’t get overlapped by content */
+
 body {
-    padding-top: 80px;   /* adjust if your navbar height changes */
+    padding-top: 80px;   
 }
         .carousel-caption  h5 {
           font-size: 3rem;
@@ -398,7 +398,7 @@ body {
     height: 100%;
     background-image: 
         linear-gradient(rgba(206, 194, 194, 0.475), rgba(105, 87, 87, 0.68)), 
-        url('./cuppie.webp'); /* Changed here */
+        url(https://betsy-jpg.github.io/UMU_WebDev_GroupI_2025/images/index/cuppie.webp); 
     background-repeat: no-repeat; /* Changed from 'repeat' */
     background-size: cover; /* Changed from 200px */
     background-position: center;
