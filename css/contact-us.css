@@ -94,13 +94,13 @@
             border-radius: 10px;
             color: white;
             cursor: pointer;
-            transition: 0.3s;
+           /* transition: 0.3s;*/
         }
 
         .icon-box:hover {
             background: white;
             color: black;
-            transform: translateY(-5px);
+            /*transform: translateY(-5px);*/
         }
 
         .icon-box i {
