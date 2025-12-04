@@ -16,8 +16,7 @@
         /* Background Section */
         .contact-section {
             min-height: 100vh;
-           /* background: contact-us.jpg*/
-                        no-repeat center center/cover;
+           background-image: url(contact-us.jpg);  no-repeat center center/cover;
              
             display: flex;
             justify-content: center;
